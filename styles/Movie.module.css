@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  height: 640px;
+  margin: 20px;
+}
+
+.image {
+  width: 220px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 10px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 10px 00px;
+  flex-grow: 1;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.iconContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
